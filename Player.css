@@ -1,0 +1,80 @@
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin-left:33%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #inputF{
+      margin-left:33%;
+  }
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(41, 39, 39);
+    color: white;
+    /*  color: white;*/
+
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    margin-left:33%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  b{
+      color:aliceblue;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  button{
+      margin-left:42%;
+  }
+  .button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin: 5px; */
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  

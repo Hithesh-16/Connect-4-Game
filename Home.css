@@ -1,0 +1,36 @@
+h2{
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+.transparentBox {
+  border-radius: 10px;
+  width: fit-content;
+  margin-left: 150px;
+  padding-right: 100px;
+  margin-right: 150px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px 0 rgb(75, 72, 72);
+  opacity: 70%;
+
+ }
+ #gif{
+    /* background: url("./gameG.gif"); */
+    /* height: 1000px;
+    width: 1000px; */
+    margin-left: 33%;
+  }
+  
+
+ .li  {
+    color:  aliceblue !important;
+    margin-bottom: 10px;
+    font-weight: 600px !important;
+    font-weight: bolder !important;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    
+ }
